@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_money.css">
+    <title>document</title>
+</head>
+<body>
+    <h1>Calculator for remaining money</h1>
+    <form>
+        <label for="init">Initial amount:</label><br>
+        <input type="text" id="init" value="20"><br><br>
+        <label for="price">Price:</label><br>
+        <input type="text" id="price" value="12.50"><br><br>   
+    </form>
+    <div class="output">
+        <button onclick="Result()" id="button">Calculate remaining money</button><br><br>
+        <label for="output"><b>Remaining money:</b></label>
+        <input type="text" id="output" value="">
+    </div>
+    <script src="money.js"></script>
+</body>
+</html>
